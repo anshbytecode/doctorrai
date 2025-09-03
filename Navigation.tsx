@@ -1,6 +1,6 @@
 
 import { Activity, Users, BookOpen } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@button';
 
 interface NavigationProps {
   activeTab: string;
@@ -41,4 +41,5 @@ export const Navigation = ({ activeTab, setActiveTab }: NavigationProps) => {
       </div>
     </nav>
   );
+
 };
