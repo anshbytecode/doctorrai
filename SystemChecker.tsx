@@ -1,13 +1,13 @@
 
 import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Textarea } from '@/components/ui/textarea';
-import { Badge } from '@/components/ui/badge';
-import { Progress } from '@/components/ui/progress';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@card';
+import { Button } from '@button';
+import { Textarea } from '@textarea';
+import { Badge } from '@badge';
+import { Progress } from '@progress';
 import { AlertTriangle, Brain, Clock, TrendingUp } from 'lucide-react';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { useToast } from '@/hooks/use-toast';
+import { Alert, AlertDescription } from '@alert';
+import { useToast } from '@use-toast';
 
 
 interface SymptomCheckerProps {
@@ -208,4 +208,5 @@ export const SymptomChecker = ({ onAnalysisComplete, onNavigateToDoctor }: Sympt
       </div>
     </div>
   );
+
 };
