@@ -1,12 +1,12 @@
 
 import { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Badge } from '@/components/ui/badge';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Button } from '@button';
+import { Input } from '@input';
+import { Badge } from '@badge';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@select';
 import { MapPin, Star, Phone, Calendar, Award, Clock } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@use-toast';
 
 interface DoctorRecommendationsProps {
   analysisResult?: any;
@@ -259,4 +259,5 @@ export const DoctorRecommendations = ({ analysisResult }: DoctorRecommendationsP
       </div>
     </div>
   );
+
 };
