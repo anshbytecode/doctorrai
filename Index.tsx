@@ -1,10 +1,10 @@
 
 import { useState } from 'react';
-import { SymptomChecker } from '@/components/SymptomChecker';
-import { DoctorRecommendations } from '@/components/DoctorRecommendations';
-import { HealthEducation } from '@/components/HealthEducation';
-import { Header } from '@/components/Header';
-import { Navigation } from '@/components/Navigation';
+import { SymptomChecker } from '@SymptomChecker';
+import { DoctorRecommendations } from '@DoctorRecommendations';
+import { HealthEducation } from '@HealthEducation';
+import { Header } from '@Header';
+import { Navigation } from '@Navigation';
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('symptoms');
@@ -32,3 +32,4 @@ const Index = () => {
 };
 
 export default Index;
+
