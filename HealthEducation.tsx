@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
+import { Badge } from '@badge';
+import { Button } from '@button';
 import { BookOpen, Heart, Shield, Zap, Clock, User } from 'lucide-react';
 
 export const HealthEducation = () => {
@@ -200,4 +200,5 @@ export const HealthEducation = () => {
       </div>
     </div>
   );
+
 };
